@@ -1,0 +1,9 @@
+[INFOS]
+gaf=0
+title=WAds
+image=description.gif
+description=description.rtf
+source=1
+typesite=0
+[OBJECT]
+WAds.WWP=4096

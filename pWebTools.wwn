@@ -1,0 +1,113 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : pWebTools
+ major_version : 28
+ minor_version : 0
+ type : 65539
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x1178033112a7d0b9
+ internal_properties : CAAAAAgAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  internal_properties : CAAAAAgAAACRUbqFPhdBwnjVkMPt+NX8SiVhOh+P2wgn3kYXkUKjYAf6lepMirBoyyG9aA13TJv5WUTvjJ1tmGb4PeuPNt4XD+nTIrWd+g==
+  type_code : 41
+  p_codes :
+   -
+     type : 983040
+     role : N
+   -
+     type : 983042
+     role : N
+  procedures :
+   -
+     name : bElementIsHovered
+     internal_properties : CAAAAAgAAABK/kNkzxxmr2+0soAvjziLvhWfxA5Dslr9yP7Cz4hbtzGfwfMQO+0ygf1PTsVG8x96QBLq6fuHa2USnITXzitNuXabU3+W5wwIIA==
+     procedure_id : 1258759605151387833
+     type_code : 15
+     code : |1-
+      Procedure bElementIsHovered( sElementName is string, pclEvent is object dynamic )
+      
+      pclTarget is object dynamic = getHoveredElement(pclEvent)
+      
+      WHILE pclTarget<>Null _AND_ pclTarget:tagName<>"BODY"
+      	IF pclTarget:id=sElementName THEN
+      		RESULT True
+      	END
+      	
+      	pclTarget = pclTarget:parentNode
+      END
+      
+      RESULT False
+     type : 458752
+     role : N
+   -
+     name : getHoveredElement
+     internal_properties : CAAAAAgAAAC4a/xafUjuA/xbWH7xkyt/Q5Me3nYj/Qgph3xT+b75r+741ppDj4odrwajV8bR701XksDPjioWVCMZUH3i72uH9gPO+Ys+kYJQy2N+
+     procedure_id : 1258759605151453369
+     type_code : 15
+     code : |1+
+      Procedure getHoveredElement( pclEvent is object dynamic )
+      
+      pclTarget is object dynamic
+      
+      IF pclEvent:target THEN
+      	pclTarget = pclEvent:target
+      ELSE
+      	IF pclEvent:srcElement THEN
+      		pclTarget = pclEvent:srcElement
+      		IF pclTarget:nodeType=3 THEN
+      			pclTarget = pclTarget:parentNode
+      		END
+      	END
+      END
+      
+      RESULT pclTarget
+     type : 458752
+     role : N
+   -
+     name : getElement
+     internal_properties : CAAAAAgAAAB3FwfAFrf+/BC4S32SUGOrSfNXLD/DM9sFPCMUuLy+DYwTRWOEV+GG9IfyD7xKEX6kM55QPj2svHTq5Fj0sw==
+     procedure_id : 1258759605151518905
+     type_code : 15
+     code : |1+
+      function getElement( sId )
+      {
+      	return document.getElementById(sId);
+      }
+     language : JS
+     type : 458752
+     role : N
+   -
+     name : getHoveredElementStartWith
+     internal_properties : CAAAAAgAAABK/kNkzxxmr2+0soAvjziLvhWfxA5Dslr9yP7Cz4hbtzGfwfMQO+0ygf1PTsVG8x96QBLq6fuHa2USnITXzitNuXabU3+W5wwIIA==
+     procedure_id : 1258759605151584441
+     type_code : 15
+     code : |1+
+      Procedure getHoveredElementStartWith( pclEvent is object dynamic , sIDStartWith is string )
+      
+      pclTarget is object dynamic = getHoveredElement(pclEvent)
+      
+      WHILE pclTarget<>Null
+      	sId is string = pclTarget.id
+      	IF sId[=sIDStartWith THEN
+      		RESULT pclTarget
+      	END
+      	pclTarget = pclTarget.parentNode
+      END
+      
+      RESULT Null
+     type : 458752
+     role : N
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : NAV_SansNom1
+resources :
+ string_res :
+  identifier : 0x1386188d0018063e
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ

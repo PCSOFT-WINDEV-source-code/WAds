@@ -1,0 +1,402 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WAds
+ major_version : 28
+ minor_version : 0
+ type : 4097
+ description : ""
+ subtype : 0
+project :
+ identifier : 0x0
+ internal_properties : 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
+ configurations :
+  -
+    name : Site
+    internal_properties : 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
+    configuration_id : 14924192535360953728
+    type : 2
+    generation_name : WAds.wdl
+    version :
+     version : 1.00Ah
+    index_page_generation_name : index
+    language : 2
+    64bits : true
+ elements :
+  identifier : 0x4f2aae6b0002c2e1
+  elements :
+   -
+     name : deposit
+     identifier : 0x4f2fbbcd003355dd
+     internal_properties : CAAAAAgAAADcr9+ObSg4pijgIf6iDhplPJPaUPP6kRD4nePtksyaU1LAQu+1vEke9jPQx2v0NClh3wTeTGcopVKAQtd7APw4fgAyXJY=
+     physical_name : .\deposit.wwh
+     type : 65538
+     report :
+      en-GB : UK
+   -
+     name : disconnection
+     identifier : 0x4f59e84900aa1af6
+     internal_properties : CAAAAAgAAAA+yf0ohzKSwMpCAxwE5Py/3nUgaj20vVDSucdzM1JM9SleN+bjrjccsC3m4VXu8msjGc6EqsGOC/TiJDWZ4pJSGJpUujQ=
+     physical_name : .\disconnection.wwh
+     type : 65538
+     report :
+      en-GB : UK
+   -
+     name : TEST_WAnnonce
+     identifier : 0x43ad393c00aaa767
+     internal_properties : CAAAAAgAAAB/21dLeCWNnqhIEknQTa1/t4buNo/pG82MHRN6jISOclKy29zTbe8eCTCqFp5SLqJq6g==
+     physical_name : .\TEST_WAd.wxt
+     type : 17
+   -
+     name : ad
+     identifier : 0x4f2fbbc1003127f7
+     internal_properties : CAAAAAgAAACtvu4h/t+P35F5SEc79+eSwW4tH8BJH3muUaMn+MB6858Akl8ob3bTu6ihCFIdBXguLNmJl9yjHtsZ627S2aVnD5FDS6U=
+     physical_name : .\ad.wwh
+     type : 65538
+     report :
+      en-GB : UK
+   -
+     name : PAGETPL_PageLayout
+     identifier : 0x4f2fb92a002d06a4
+     internal_properties : CAAAAAgAAADGTC5yse7G6cw3JJ8Ny2Ki1EEjq5I8/4eoYtDNyyV3cV+jMh19e7pQjYlzTdUL9+nTUw==
+     physical_name : .\PAGETPL_PageLayout.wwt
+     type : 65541
+   -
+     name : PAGETPL_Main
+     identifier : 0x4f2bedb5000afaa8
+     internal_properties : CAAAAAgAAADpZdE18q8HKA1IYaR6EbFVM2BuBrj4LdNSCk6ncI+HmWtlblFIsPUNTso0jBTMtCTsdA==
+     physical_name : .\PAGETPL_Main.wwt
+     type : 65541
+   -
+     name : profile
+     identifier : 0x4f3b98f9002a224b
+     internal_properties : CAAAAAgAAACwQ+uC0bwsSkzE/YpuOrbBCL9+zB+W3BIz0sC1Lsi2lyBAsH1dFJH2VmP05VMA2E0Fe6i6YAvU0Y5MnrMfbAjE6vQ+QLI=
+     physical_name : .\profile.wwh
+     type : 65538
+     report :
+      en-GB : UK
+   -
+     name : search
+     identifier : 0x4f2fbba5002fb98d
+     internal_properties : CAAAAAgAAAA1NlYZVicnpynhIP+jDx8aOZbFJ2hBEb1brBsH4AjCc9tQiieECwpnx9RV+qrdjYDWVPHhT2QrplOBQ9Z6Af0/Z2mr0y0=
+     physical_name : .\search.wwh
+     type : 65538
+     report :
+      en-GB : UK
+   -
+     name : adhesion
+     identifier : 0x4f3b9ad1002c54c3
+     internal_properties : CAAAAAgAAACTVHC3bC09rTffJuFpObXAF7x/9aYvBnNLv7NlDnoQ2faW4YD4U+K7U7AJCLyLX9aMgqe7YQrV0Il3Sch0B/c1fQfJNc8=
+     physical_name : .\adhesion.wwh
+     type : 65538
+     report :
+      en-GB : UK
+   -
+     name : QRY_ListCountries
+     identifier : 0x4f5e1f4900b42ee6
+     internal_properties : CAAAAAgAAAA0EhwYp5yUl761rmW7VmhEelkh+Us+QVFKqJ2t/YQQ+PDC04wH8TTKCzehH+cZ4dchIQ==
+     physical_name : .\QRY_ListCountries.WDR
+     type : 5
+   -
+     name : TPLC_Sponsors
+     identifier : 0x4f2fa810002b3ad9
+     internal_properties : CAAAAAgAAADDvztvXAkhOpPax75sIH+/XcxEnD0fNW2k58GcTqJoqGioy4Qemttz4FxGsnJuCv7GTg==
+     physical_name : .\TPLC_Sponsors.wwt
+     type : 65543
+   -
+     name : help
+     identifier : 0x4f2fbbd90035844f
+     internal_properties : CAAAAAgAAADp6pLdiuv7+71VrHsf6/u2ZcKJYzSd8hNGuSN36AD6Y4eA4o9Ad477U+A5MLrJ0UQaEDUt87iHAv/9z0Luvbl7I61nl2k=
+     physical_name : .\help.wwh
+     type : 65538
+     report :
+      en-GB : UK
+   -
+     name : PAGETPL_ConnectionBox
+     identifier : 0x4f34fffb00275a16
+     internal_properties : CAAAAAgAAAALB3MXlNFZAtsSD0aketsbbUi0pBh5stiK2HZJ6zTmck5Csa7m0hMrqJQO6qom0sYOFg==
+     physical_name : .\PAGETPL_ConnectionBox.wwt
+     type : 65541
+   -
+     name : pWebTools
+     identifier : 0x4f3505e200296959
+     internal_properties : CAAAAAgAAADfuzfr2IWtvgdeWzLghxfHsf70JKo50lh2wYCQ9i3hxwnr5PuqFl/3ZNDKNv7yjgLKSg==
+     physical_name : .\pWebTools.wwn
+     type : 65539
+   -
+     name : favorites
+     identifier : 0x4f6078d700335c50
+     internal_properties : CAAAAAgAAADBksrlMoNDE6Wt1CPXc2MOTdqReyyFKSVuc0mEOvYc3fSep7a4k6L7q+gllC6RSTwSCD0VG1Afmke1d5oGlWGjy9Ufb4E=
+     physical_name : .\favorites.wwh
+     type : 65538
+     report :
+      en-GB : UK
+   -
+     name : COL_WAd
+     identifier : 0x4f5a378a022cb66c
+     internal_properties : CAAAAAgAAAABfXmtGkfvgEWQmfwi81X5MxwOXm0/ScSD/9a/x1lFQ7F/DDNgWJ21JhKMdDy0TLwEDA==
+     physical_name : .\COL_WAd.wdg
+     type : 7
+   -
+     name : get_password
+     identifier : 0x4f3bbb9300324ae1
+     internal_properties : CAAAAAgAAAC1ttaZ1qenJ6lhoH8jj5+auRZFp+jBTS82hBnRwq6kjZoeI9K2ucy5XSrLRJ4VDQBW1HFhz+SrJtMBw1b6gX2/5+krU60=
+     physical_name : .\get_password.wwh
+     type : 65538
+     report :
+      en-GB : UK
+   -
+     name : my_ads
+     identifier : 0x4f2fbbe50037b2b2
+     internal_properties : CAAAAAgAAAAL3IjflOXl5b9XrkkhgZ2YvxRHjV5Xvq9ZomtXKIgyA9FQhiOC6WzVsV7jdCyTl47Eum9jyeKtKNEP0UDsv799Ja9hrUc=
+     physical_name : .\my_ads.wwh
+     type : 65538
+     report :
+      en-GB : UK
+   -
+     name : connection_profile
+     identifier : 0x4f3bb425002e45dd
+     internal_properties : CAAAAAgAAABTFLB3rO397fcfZiGpeXUAV/w/NWZv3hnmu+o9nopA+URGecgClZDtQR7/8qDLn5bMQuf7IUoVkEm3CQi0x7d1PUeJ9Q8=
+     physical_name : .\connection_profile.wwh
+     type : 65538
+     report :
+      en-GB : UK
+   -
+     name : categories
+     identifier : 0x4f3008100024050a
+     internal_properties : CAAAAAgAAAAqNVEUQw7ejBb+x8CIWNCjctmc7rEYPXy6wkhC9JrU7SfeR9bFyM22Hpu8vQFSTsefnUoYBq1yb2iWaOlVJtYWXGao1ig=
+     physical_name : .\categories.wwh
+     type : 65538
+     report :
+      en-GB : UK
+   -
+     name : QRY_EnumAtt
+     identifier : 0x4f60df930034ebef
+     internal_properties : CAAAAAgAAAAOFGa6iTZ+sbTPjMclw1pqrBmrY1susfp2pTiCZF2/WacLijVlU5Ko1UG7BY1DP7EbGw==
+     physical_name : .\QRY_EnumAtt.WDR
+     type : 5
+   -
+     name : TPLC_ConnectionBanner
+     identifier : 0x4f329349002678bd
+     internal_properties : CAAAAAgAAABaMAIGpeLK1ejjEGupeN7u2G8nD7eGpoe31gxHebZekqK8Fbrh3yY8uWVfWdkX49U/xw==
+     physical_name : .\TPLC_ConnectionBanner.wwt
+     type : 65543
+   -
+     name : index
+     identifier : 0x4f2fa4f100290925
+     internal_properties : CAAAAAgAAAD7jDjvxPVV9Y+Hvlkx0U0o70R33Q5nsKP0n74JjroQKZCmPSySBYDdcV5HQvSDp570ap+zeTL9+OEf4XDcr0+N1d8RfXc=
+     physical_name : .\index.wwh
+     type : 65538
+     report :
+      en-GB : UK
+   -
+     name : QRY_DatabaseSearch
+     identifier : 0x4f5e28d300b87486
+     internal_properties : CAAAAAgAAACTb8vf7FnRiqOq1y78bS/Xje7YmChTh/C29Uj67pMDDevh7uHOKmuD8CyWYiLemg72fg==
+     physical_name : .\QRY_DatabaseSearch.WDR
+     type : 5
+   -
+     name : QRY_AdsPerCountry
+     identifier : 0x4f5e20a600b6824d
+     internal_properties : CAAAAAgAAABO1Kb6SXY+cXSPTAflhwrSvOnLI5sGadF2QXSWQCFr/fPv5vmlE1LoFQH7xU2Df3Fb2w==
+     physical_name : .\QRY_AdsPerCountry.WDR
+     type : 5
+  other_elements : []
+  analysis : .\WAds.ana\WAds.wda
+  net_assemblies : []
+  uwp_api : []
+  external_components : []
+  internal_components :
+   -
+     physical_name : .\CompteInternet\InternetAccount.wci
+ common_generation_directory : true
+ wb_skin : 170 Elegant
+ wb_color_palette : Taste of Summer & Dark
+ site_type : 3
+ languages :
+  - en-GB
+ site_map :
+  roots : []
+  orphans :
+   -
+     name : ad
+     parameters : []
+     title :
+      fr-FR : WAnnonces
+      en-GB : WAds
+     description :
+      fr-FR : WAnnonces
+      en-GB : WAds
+   -
+     name : adhesion
+     parameters : []
+     title :
+      fr-FR : WAnnonces
+      en-GB : WAds
+     description :
+      fr-FR : WAnnonces
+      en-GB : WAds
+   -
+     name : categories
+     parameters : []
+     title :
+      fr-FR : WAnnonces
+      en-GB : WAds
+     description :
+      fr-FR : WAnnonces
+      en-GB : WAds
+   -
+     name : connection_profile
+     parameters : []
+     title :
+      fr-FR : WAnnonces
+      en-GB : WAds
+     description :
+      fr-FR : WAnnonces
+      en-GB : WAds
+   -
+     name : deposit
+     parameters : []
+     title :
+      fr-FR : WAnnonces
+      en-GB : WAds
+     description :
+      fr-FR : WAnnonces
+      en-GB : WAds
+   -
+     name : disconnection
+     parameters : []
+     title : {}
+     description : {}
+   -
+     name : favorites
+     parameters : []
+     title :
+      fr-FR : WAnnonces
+      en-GB : WAds
+     description :
+      fr-FR : WAnnonces
+      en-GB : WAds
+   -
+     name : get_password
+     parameters : []
+     title :
+      fr-FR : WAnnonces
+      en-GB : WAds
+     description :
+      fr-FR : WAnnonces
+      en-GB : WAds
+   -
+     name : help
+     parameters : []
+     title :
+      fr-FR : WAnnonces
+      en-GB : WAds
+     description :
+      fr-FR : WAnnonces
+      en-GB : WAds
+   -
+     name : index
+     parameters : []
+     title :
+      fr-FR : WAnnonces
+      en-GB : WAds
+     description :
+      fr-FR : WAnnonces
+      en-GB : WAds
+   -
+     name : my_ads
+     parameters : []
+     title :
+      fr-FR : WAnnonces
+      en-GB : WAds
+     description :
+      fr-FR : WAnnonces
+      en-GB : WAds
+   -
+     name : profile
+     parameters : []
+     title :
+      fr-FR : WAnnonces
+      en-GB : WAds
+     description :
+      fr-FR : WAnnonces
+      en-GB : WAds
+   -
+     name : search
+     parameters : []
+     title :
+      fr-FR : WAnnonces
+      en-GB : WAds
+     description :
+      fr-FR : WAnnonces
+      en-GB : WAds
+ url_rewriting :
+  internal_properties : CAAAAAgAAADkPzcUdUUS7wCiun+MCjqYH70RJdzkSv/nRvXZ3ENdikMa6bcHtsAH
+ code_elements :
+  internal_properties : CAAAAAgAAABseimUYz4VdXZ8hGsGFqoxLDfDcHkNZdBf0iQg2FQcqmw5VrO2lryVMt3efm9RagPlXJBReauIsX3ZdB8=
+  type_code : 0
+  p_codes :
+   -
+     internal_properties : CAAAAAgAAABqbgbOoNiisvy1Q5SEF26MlEKwT6SNUMK8WvW276g+wNAVPXTSb5nNIjNFfdk6t7krJJCw2W0FzgMUXm/Yhau7upvMsF59NeCWqRSyan901nkZKQM6LmkXnlKInD8xru1nRrWiflhjybjUZc0gVH06vZ7M7BMcKWOxp5XXzM73WZE21OU101BZoJlAfnQxbC9SbxappfQqpmKFchTHy6xBZgCWWovDyoy4cA==
+     code : |1+
+      // Global variables of the project
+      
+      // The download directory is a sub-directory of the _WEB directory of the site
+      // This directory will be automatically created during the upload if it does not exist
+      gsDownloadDirectory is string = fSeparator(fWebDir()+["\"]+"upload\")
+      
+      // Temporary directory in which the uploaded files will be placed before they are moved to _WEB
+      gsTempUploadDir is string = fSeparator(fDataDir()+["\"]+"tmp\")
+      fMakeDir(gsTempUploadDir)
+      
+      // The gsLinkDownloadDirectory variable is the access path to the directory defined above in browser code
+      gsLinkDownloadDirectory is string = "/"+FolderWeb()+"/upload/"
+      
+      // Configuration of the AWP context
+      ConfigureAWPContext(ctxDisk)
+      
+      // Variable to contain the text of the toasts
+      gsToastText is string
+      DeclareAWPContext(gsToastText)
+      
+      // Initialize the internal component for managing the Internet accounts
+      InitializeManagementInternetAccount()
+      // Then, fills the global variables whose default values are customized for this site
+      // The site does not use the activation by email, the user accounts are immediately enabled
+      COL_ManageAccount.gbActivationByEmail = False
+      COL_ManageAccount.gsEmailTechnicalSupport = "assistance@wads.com"
+      COL_ManageAccount.gsHomePage = "index.awp"
+      COL_ManageAccount.gsPageCustomSpace = "profile.awp"
+      
+      // Initialize the main set of procedures of the project
+      InitializeWAd()
+      
+      // Changes the time-out of the SMTP connections to 10 seconds (instead of 10 minutes by default)
+      EmailSetTimeOut(10)
+     type : 196608
+   -
+     type : 196621
+   -
+     type : 196627
+     enabled : false
+  orphans :
+   -
+     name : Site
+     identifier : 0x4f2aae6c0003c458
+     code_elements :
+      type_code : 159
+      p_codes : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : WAnnonces
+rad :
+ internal_properties : CAAAAAgAAABhIL0UXeZmxDJxY3Xy0Q==
+project_explorer :
+ explorer_type : project
+resources :
+ string_res :
+  identifier : 0x0
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAAd98VSJfHHqE3P0QHwrwdhn7ig8dWBR6valpUTgnAMTVXiDg==

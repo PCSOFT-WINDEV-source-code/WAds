@@ -1,0 +1,82 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : disconnection
+ major_version : 28
+ minor_version : 0
+ type : 65538
+ description : ""
+ subtype : 8192
+page :
+ name : disconnection
+ identifier : 0x2178031c09ce7dab
+ internal_properties : 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
+ properties : {}
+ type : 1
+ languages :
+  - en-GB
+ code_elements :
+  internal_properties : CAAAAAgAAACSM1AT1VqNEu4PHug/uKf45ByUw5KENARqoauIpEweR0pRKynMcanOfuFeiyTghfk2Z8pEaFRQ1t7MzKgRlg==
+  type_code : 38
+  p_codes :
+   -
+     code : |1+
+      COL_ManageAccount.Disconnects()
+      PageDisplay(index)
+     type : 851968
+   -
+     type : 852017
+     enabled : false
+   -
+     type : 852119
+     enabled : false
+   -
+     type : 852298
+     role : N
+   -
+     type : 851999
+     role : N
+   -
+     type : 852000
+     role : N
+   -
+     type : 852232
+     enabled : false
+   -
+     type : 852167
+     enabled : false
+   -
+     type : 852169
+     role : N
+     enabled : false
+   -
+     type : 852225
+     role : N
+     enabled : false
+   -
+     type : 852227
+     enabled : false
+   -
+     type : 1310979
+     enabled : false
+   -
+     type : 852228
+     role : N
+     enabled : false
+   -
+     type : 852217
+     role : N
+     enabled : false
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : PAGE_SansNom1
+resources :
+ string_res :
+  identifier : 0x1006950b01e85f91
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+webification :
+ internal_properties : CAAAAAgAAACYzxT95H3qP7nIys4LqA==
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
